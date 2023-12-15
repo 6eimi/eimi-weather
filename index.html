@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="weatherproject.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Eimi Zaimi</div>
+        <nav>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="locationForm">
+                <label for="latitude">Latitude:</label>
+                <input type="text" id="latitude" name="latitude" placeholder="Enter latitude" required>
+
+                <label for="longitude">Longitude:</label>
+                <input type="text" id="longitude" name="longitude" placeholder="Enter longitude" required>
+
+                <button type="button" id="dataDisplayer">Get Weather</button>
+            </form>
+
+            <div class="weather-widget">
+                <h2>Current Weather</h2>
+                <div id="temperature"></div>
+                <div id="wind-speed"></div>
+            </div>
+
+            <table id="weather-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Hour</th>
+                        <th>Temperature</th>
+                        <th>Wind Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+
+
+        <footer>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Email: eimiizaimii@gmail.com</p>
+                <p>Phone: +355 69 633 5400</p>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2023 Eimi. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="./weatherProjects.js" ></script>
+    </body>
+
+</html>

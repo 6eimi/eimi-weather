@@ -1,0 +1,161 @@
+/* Header */
+header {
+    background-color: #e36992;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff69b4; 
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+h1, h2 {
+    color:  #e36992; 
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ff99b3; 
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ff99b3; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#ff99b3; 
+}
+
+.weather-widget {
+    background-color: #fce6e6; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#temperature, #wind-speed {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ffb3d9; 
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff99b3; 
+}
+
+footer {
+    background-color: #ffecf0;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info,
+.social-media,
+.copyright {
+    margin-bottom: 20px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ffecf0; 
+}
+
+/* Copyright Styles */
+.copyright p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
